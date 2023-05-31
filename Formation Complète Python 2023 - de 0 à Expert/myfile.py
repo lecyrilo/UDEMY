@@ -1,3 +1,3 @@
-import random
-help(input
-     )
+# import random
+from random import randint
+help(randint)
