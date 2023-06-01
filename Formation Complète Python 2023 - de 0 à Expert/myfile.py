@@ -68,3 +68,18 @@ elif not auslastung and not blockiert and not angemietet:
     print("Parkhaus frei")
 else:
     print("Tchao !!!")
+
+value_1 = all([auslastung, blockiert, angemietet])
+value_2 = any([auslastung, blockiert, angemietet])
+print(value_1)
+print(value_2)
+
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+new_list = [i for i in list if i%2==0]
+print(new_list)
+
+lotto = [3, 7, 46, 21, 23, 2]
+print(lotto[0])
+
+for i in range (1, 11):
+    print(f"utilisateur_{i}")
