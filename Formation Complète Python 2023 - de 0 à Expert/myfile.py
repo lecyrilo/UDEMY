@@ -33,7 +33,7 @@ while i < num :
     i+=1
 print(f"Der Satz hat {num} mit Leerzeichen und {num-j} ohne Leerzeichen") """
 
-i = 0  # the counter
+""" i = 0  # the counter
 for i in range(1, 100):
     divisor_of_3 = i % 3
     divisor_of_5 = i % 5
@@ -44,4 +44,5 @@ for i in range(1, 100):
     elif divisor_of_3 == 0 and divisor_of_5 == 0:
         print("Fizzbuzz")
     else:
-        print(i)
+        print(i) """
+
