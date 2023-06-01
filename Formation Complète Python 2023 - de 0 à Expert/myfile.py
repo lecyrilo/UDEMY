@@ -4,6 +4,7 @@
         print(f"i est égale à {i} le programme va s'interumpre !")
         break """
 
+
 """ i=0
 while i < 10 :
     print(i)
@@ -50,25 +51,22 @@ auslastung = True
 blockiert =  True
 angemietet = False
 
-if auslastung and blockiert and angemietet :
+if auslastung and blockiert and angemietet:
     print("Parkhaus gesperrt")
-elif auslastung and blockiert and not angemietet :
+elif auslastung and blockiert:
     print("Parkhaus gesperrt")
-elif auslastung and not blockiert and angemietet :
+elif auslastung and angemietet:
     print("Parkhaus gesperrt")
 elif not auslastung and blockiert and angemietet :
     print("Parkhaus gesperrt")
-elif not auslastung and blockiert and not angemietet :
+elif not auslastung and blockiert:
     print("Parkhaus gesperrt")
-elif not auslastung and not blockiert and angemietet:
+elif not auslastung and angemietet:
     print("Parkhaus gesperrt")
-elif auslastung and not blockiert and not angemietet:
+elif auslastung:
     print("Parkhaus belegt")
-elif not auslastung and not blockiert and not angemietet:
-    print("Parkhaus frei")
 else:
-    print("Tchao !!!")
-
+    print("Parkhaus frei")
 value_1 = all([auslastung, blockiert, angemietet])
 value_2 = any([auslastung, blockiert, angemietet])
 print(value_1)
