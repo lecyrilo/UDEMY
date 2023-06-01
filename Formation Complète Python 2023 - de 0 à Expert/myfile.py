@@ -46,3 +46,25 @@ for i in range(1, 100):
     else:
         print(i) """
 
+auslastung = True
+blockiert =  True
+angemietet = False
+
+if auslastung and blockiert and angemietet :
+    print("Parkhaus gesperrt")
+elif auslastung and blockiert and not angemietet :
+    print("Parkhaus gesperrt")
+elif auslastung and not blockiert and angemietet :
+    print("Parkhaus gesperrt")
+elif not auslastung and blockiert and angemietet :
+    print("Parkhaus gesperrt")
+elif not auslastung and blockiert and not angemietet :
+    print("Parkhaus gesperrt")
+elif not auslastung and not blockiert and angemietet:
+    print("Parkhaus gesperrt")
+elif auslastung and not blockiert and not angemietet:
+    print("Parkhaus belegt")
+elif not auslastung and not blockiert and not angemietet:
+    print("Parkhaus frei")
+else:
+    print("Tchao !!!")
