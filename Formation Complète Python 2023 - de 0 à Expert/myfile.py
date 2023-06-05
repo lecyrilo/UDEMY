@@ -1,5 +1,5 @@
 import random
-import os
+#import os
 
 number_1 = random.randint(0,5)
 number_2 = random.randint(0,5)
@@ -17,7 +17,7 @@ print(dir(random))
 help(random.random)
 
 x = 10
-#y = "f5fg"
+y = "f5fg"
 #print(x/y)
 
 try:
@@ -28,4 +28,3 @@ except TypeError:
     print("y type ist not correct")
 except NameError:
     print("y ist defined")
-    
